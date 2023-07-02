@@ -8,7 +8,9 @@ This repository contains the following.
 # Example usage
 
 Running the following command should create the contents of `example-output/`.
+
 `epoch="example-output/$(date +%s)"; bash get-be-simple.sh example-input/data.csv $epoch`
+
 (The timestamp you generate will likely differ, but these timestamps can be useful to refer back to old BE data that you have downloaded.)
 
 The file containing the BrickEconomy data of all sets from the input file is `example-output/1687973873/timeline-be.csv`. You can open this file in any CSV reader to more easily digest the data. E.g., You can import the `example-output/1687973873/timeline-be.csv` into [Google sheets](https://docs.google.com/spreadsheets/d/1WtsMAJDHcxTdCnoeWViDsxjRuaVCgKQEw21Xl-yB8mg).
